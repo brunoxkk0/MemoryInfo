@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>MEMORY INFO</h1>
+        <div class="sys-info">
+            <div>
+                <p>TOTAL RAM:</p>
+                <p>FREE RAM:</p>
+                <p>USED RAM:</p>
+            </div>
+            <div class="sys-status">
+                <p>${totalRam}</p>
+                <p>${freeRam}</p>
+                <p>${usedRam}</p>
+            </div>
+        </div>
+        <div class="mem-status">
+            <div class="progress-container">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="mem-percentage-container">
+                <p class="mem-percentage">0%</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

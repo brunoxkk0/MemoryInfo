@@ -1,0 +1,67 @@
+:root{
+    --progress-bar: 0;
+}
+
+*{
+    font-family: Roboto, sans-serif;
+    color: #FFF;
+}
+
+body{
+    background-color: rgba(93, 92, 92, .80);
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    color: #0a1f00;
+}
+
+.sys-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sys-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: end;
+    margin-bottom: 16px;
+}
+
+.progress-container {
+    display: block;
+    min-width: 85%;
+    margin: auto;
+    height: 20px;
+    background-color: #333333;
+    border: #222222 solid 2px;
+}
+
+.progress-bar{
+    display: block;
+    width: var(--progress-bar);
+    height: 20px;
+    background-color: #1bb624;
+}
+
+.mem-status{
+    display: flex;
+    flex-direction: row;
+}
+
+.mem-percentage-container{
+    display: flex;
+    align-items: center;
+}
+
+.mem-percentage{
+    margin-left: 4px;
+}
